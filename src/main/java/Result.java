@@ -6,7 +6,10 @@ public class Result {
     public static List<Integer> gradingStudents(List<Integer> grades) {
 
         List<Integer> result = new ArrayList<>();
+
         if (grades != null && !grades.isEmpty()) {
+
+
             if (grades.get(0) <= 60 && grades.get(0) >= 1) {
                 if (grades.get(0) == grades.size() - 1) {
 
